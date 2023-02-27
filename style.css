@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    background-color:#76c893;
+    
+}
+.container {
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.input-section {
+    display: flex;
+
+}
+.input-section input{
+    flex:1;
+    padding: 5px;
+}
+.input-section button {
+    background-color: #f725b5;
+    border: unset;
+    color: #fff;
+}
+.list-section ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.list-section ul li {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-section ul li .done{
+    text-decoration: line-through;
+}
+.list-section ul li .close {
+    background-color: #A05454;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
